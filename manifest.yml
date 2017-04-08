@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Syrano1
+  host: Syrano1
+  disk_quota: 1024M
+  services:
+  - Personality Insights-yx
+  - appID
